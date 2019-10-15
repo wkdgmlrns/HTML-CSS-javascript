@@ -1,0 +1,30 @@
+<!doctype>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    
+</head>
+<body>
+    <div>
+        name : <input type="text" onkeyup="fun()" id="name">
+    </div>
+    <p id="demo">
+        dfsdfsdf
+    </p>
+    <script> 
+         var x = document.getElementById("name");
+        var demo = document.getElementById("demo"); 
+    function fun(){
+        
+        if(x.value.length != 3){
+            demo.innerHTML="다시입력";
+            demo.style.color="red";
+        }else{
+            demo.innerHTML="성공";
+            demo.style.color="blue";
+        }           
+    }
+    </script>
+</body>
+</html>

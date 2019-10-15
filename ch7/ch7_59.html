@@ -1,0 +1,21 @@
+<!doctype>
+<html>
+<head>
+    <meda charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+    <button onclick="myFun()">sdf</button>
+    <script>
+        function myFun(){
+            var x =document.createElement("FORM");
+            x.setAttribute("id","myFrom");
+            document.body.appendChild(x);
+            var y = document.createElement("INPUT");
+            y.setAttribute("type","text");
+            y.setAttribute("value","do");
+            x.appendChild(y);
+        }
+    </script>
+</body>
+</html>

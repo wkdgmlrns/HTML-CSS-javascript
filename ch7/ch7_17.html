@@ -1,0 +1,23 @@
+<!doctype>
+<html>
+<head>
+    <meda charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+    <ul id="mylist">
+        <li>coffe</li>
+        <li >tea</li>
+        <li>milk</li>
+    </ul>
+    <p>remove</p>
+    <button onclick="myfun()">try it!</button>
+    <script>
+        function myfun(){
+            var c = document.createTextNode("LI");
+            var list = document.getElementById("mylist");
+            list.replaceChild(c,list.childNodes[1]);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype>
+<html>
+<head>
+    <meda charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+    <p>asdfasdfasdfasdf</p>
+    <p>fffffffffffffff</p>
+    <p>ddddddddddddddddddd</p>
+    <button onclick="fun()">sdf</button>
+    <p id="demo"></p>
+    <script>
+        function fun(){
+        var x = document.querySelectorAll("p");
+        document.getElementById("demo").innerHTML = x.length;
+        var i;
+        for(i=0;i<x.length;i++)
+        {
+            x[i].style.backgroundColor="red";
+        }
+            }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype>
+<html>
+<head>
+    <meda charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+    <ul >
+        <li>coffe</li>
+        <li id="mylist">tea</li>
+        <li>milk</li>
+    </ul>
+    <p>remove</p>
+    <button onclick="myfun()">try it!</button>
+    <script>
+        function myfun(){
+            var list = document.getElementById("mylist");
+            list.parentNode.removeChild(list);
+        }
+    </script>
+</body>
+</html>

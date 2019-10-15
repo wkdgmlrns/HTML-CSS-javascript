@@ -1,0 +1,22 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<body>
+    <p> create element</p>
+    <div id="myDIV">
+        first...
+    </div>
+    <button onclick="myFun()">try it</button>
+    <script>
+        function myFun(){
+            var para = document.createElement("P");
+            var t = document.createTextNode("reave me");
+            para.append(t);
+        document.getElementById("myDIV").append(para);
+        }
+    </script>
+</body>
+</head>
+</html>2

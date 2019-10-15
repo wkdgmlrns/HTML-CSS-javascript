@@ -1,0 +1,18 @@
+<!doctype>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+    <p id="p01">dddddddddddd life</p>
+    <button onclick="myFun()">sss</button>
+    <p id="demo"></p>
+    <script>
+        function myFun(){
+            text = document.getElementById("p01").innerHTML;
+            document.getElementById("demo").innerHTML = /life/.test(text);
+        }
+    </script>
+</body>
+</html>

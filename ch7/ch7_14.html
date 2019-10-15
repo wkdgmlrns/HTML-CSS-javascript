@@ -1,0 +1,19 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<body>
+    <p>Create New HTML</p>
+    <button onclick="myFunction()">Try it</button>
+    <script>
+        function myFunction(){
+            var btn = document.createElement("button");
+            var t = document.createTextNode("CLICK ME");
+            //btn.appendChild(t);
+            document.body.append(btn);
+        }
+    </script>
+</body>
+</head>
+</html>

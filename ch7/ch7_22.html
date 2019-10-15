@@ -1,0 +1,18 @@
+<!doctype>
+<html>
+<head>
+    <meda charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+    <p>the html content of the document.</p>
+    <button onclick="myfun()">try it!</button>
+    <p id="demo"></p>
+    <script>
+        function myfun(){
+            var x = document.body.innerHTML;
+            document.getElementById("demo").innerHTML = x;
+        }
+    </script>
+</body>
+</html>

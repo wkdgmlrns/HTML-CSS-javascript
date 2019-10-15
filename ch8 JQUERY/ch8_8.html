@@ -1,0 +1,41 @@
+<!doctype>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <style>
+        .test *{
+            display:block;
+            border:2px solid orange;
+            color: blue;
+            padding: 5px;
+            margin:15px;
+        }
+    </style>
+</head>
+<boyd>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("div>p").css({"color":"green","border":"2px solid green"});
+            })    
+        })
+    </script>
+    <div class="test">
+        <a href="#">al tag</a>
+        <p>p
+            <span>span1</span>
+            <a href="#">a2 tag </a>
+            
+        </p>
+        <p>p
+            <span>span2</span>
+        </p>
+        <div>
+            <p>asdfasdfasdfasdf</p>
+        </div>
+    </div>
+    <button>Click me</button>
+</boyd>
+</html>

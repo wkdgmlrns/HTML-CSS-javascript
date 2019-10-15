@@ -1,0 +1,19 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<boyd>
+    <p id="str">mmstri string strtin</p>
+    <button onclick="myFun()">try it!</button>
+    <p id="demo"></p>
+    <script>
+        function myFun(){
+            var target = document.getElementById("str").innerHTML;
+            var txt = target.replace(/string/i,"HTML5");
+            document.getElementById("demo").innerHTML = target;
+        }
+    </script>
+</boyd>
+</head>
+</html>
